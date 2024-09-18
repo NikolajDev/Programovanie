@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="../CSS/Survey.css">
+</head>
+<body>
+    <h1 id="title">niky.dev Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve this webpage</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name</label><input type="text" id="name" placeholder="Enter you name" required/>
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required/>
+        <label id="number-label" for="number">Age (optional)</label><input type="number" id="number" placeholder="Age" min="13" max="120"/>
+        <label id="role-label" for="role">What of the options is describing you the most</label>
+        <select id="role">
+            <option value="0">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+        </select>
+        <p>Would you recommend niky.dev to a friend?</p>
+          <input type="radio" id="definitely" name="fav_language" value="Definitely">
+          <label for="definitely">Definitely</label><br>
+          <input type="radio" id="maybe" name="fav_language" value="Maybe">
+          <label for="maybe">Maybe</label><br>
+          <input type="radio" id="notsure" name="fav_language" value="Not Sure">
+          <label for="notsure">Not sure</label>
+        <p>What is your favorite feature of niky.dev?</p>
+        <select id="dropdown">
+            <option value="0">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open</option>
+            <option value="5">Other</option>
+        </select>
+        <p>What would you like to see improved? <span id="clue">(Check all that apply)</span></p>
+        <input type="checkbox" value="1" name="1"/> Add more challenges <br>
+        <input type="checkbox" value="1" name="2"/> Better support <br><br>
+        <label for="recommend">Do you want add something:</label> <br>
+        <textarea id="recommend" cols="50" rows="4" placeholder="Enter your comment here .."> 
+            
+        </textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>

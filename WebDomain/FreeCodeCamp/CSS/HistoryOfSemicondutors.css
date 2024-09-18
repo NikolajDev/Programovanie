@@ -1,0 +1,61 @@
+body {
+    background-color: wheat;
+}
+h1, p {
+    text-align: center;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    position: relative;
+    top: auto;
+    left: 30%;
+}
+
+#img-div {
+  margin: 0 auto;
+  text-align: center;  
+}
+
+#img-caption {
+  margin-top: 10px;
+}
+
+#img-div {
+    background-color: #efefef;
+    width: 95%;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#link {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+

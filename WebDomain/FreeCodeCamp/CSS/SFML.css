@@ -1,0 +1,65 @@
+/* Style the navigation bar */
+nav {
+    position: fixed;  
+    left: 0;          
+    top: 0;           
+    height: 100vh;     
+    width: 250px;      
+    border-right: 1px solid gray;
+  }
+  
+  
+  nav * {
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+  }
+  
+
+  div {
+    margin-left: 0;         
+    padding-left: 260px;     
+  }
+
+  header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 25px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    text-align: center;
+  }
+
+  a:hover {
+    background-color: #ddd;
+  }
+
+  a:active {
+    background-color: #1abc9c;
+  }
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 250px) {
+  nav {
+    display: none;
+  }
+}

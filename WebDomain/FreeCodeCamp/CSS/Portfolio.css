@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(62deg, #3a3d40, #181719);
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#welcome-section p {
+    font-size: 1.5rem;
+    color: greenyellow;
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: "Montserrat", sans-serif
+}
+
+#navbar {
+    width: 100%;
+    background-color: rgb(221, 0, 0);
+    z-index: 10;
+    position: fixed;
+}
+
+#navbar nav {
+    display: flex;
+    justify-content: right;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    align-items: right;
+}
+
+#navbar a:hover {
+    background-color: silver;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;*/
+    text-shadow: 1px 1px 3px black;
+}
+
+#projects {
+    background-color: goldenrod;
+    text-align: center;
+    height: auto;
+    min-height: 100vh;
+    margin: auto;
+    width: 100%;
+    /* Add padding to push content below navbar */
+    padding-top: 70px;
+}
+
+#projects h1 {
+    font-size: 3rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.project-tile {
+    display: inline-block;
+    width: 25vw;
+    /* môže byť aj 40%, no ono 
+    to bude robit blobosti 
+    dokym to nebude 
+    responzivny dizajn 
+    ale to som zabudol 
+    ako robit 
+    to je display: flex???
+    to bolo ze ked to je nad/pod 800 pixolova tak to spravi daco
+    @media (max-width: 800px) {
+        display: block;
+    }
+     toto JEEEE ONOOO   
+    */
+    margin: 1rem;
+    background-color: rgba(26, 127, 202, 0.7);
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .project-tile {
+        width: 100vw;
+        max-height: 93.5vh;
+        /*font-size: 1%;*/
+        /*
+        asi tu staci iba font zmensit a bude, nejaku adaptivnu hodnotu tu treba, najlepsie to vw ale to nejde xd
+        */
+    }
+
+}
+
+@media (max-width: 768px) {
+    .project-tile {
+        width: 40vw;
+    }
+}
+
+.project-tile img {
+    width: 100%;
+    height: auto;
+}
+
+.project-tile a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    font-family: "Monntserrat", sans-serif;
+    ;
+}
+
+.project-tile:hover {
+    background-color: #333;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(62deg, #3a3d40, #181719);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+#footer h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#footer p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    font: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+#home:hover {
+    overflow: hidden;
+    content: "Home";
+}

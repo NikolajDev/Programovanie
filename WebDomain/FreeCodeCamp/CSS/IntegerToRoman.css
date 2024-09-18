@@ -1,0 +1,51 @@
+body {
+    background-color: #2D3480;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#name {
+    color: #C4E9EC;
+    font-size: 65px;
+}
+
+input {
+    background-color: #C4E9EC;
+    width: fit-content;
+    color: #2D3480;
+    font-size: 35px;
+    margin: 10px;
+}
+
+button {
+    background-color: #C4E9EC;
+    color: #2D3480;
+    font-size: 35px;
+}
+
+body * {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, #output {
+    text-align: center;
+    background-color: #C4E9EC;
+    color: #2D3480;
+    font-size: 35px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #2D3480;
+    color: #C4E9EC;
+}

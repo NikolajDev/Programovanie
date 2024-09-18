@@ -1,0 +1,65 @@
+body {
+    background: url("https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif");
+    color: white;
+    text-align: center;
+    font-family: "monospace", "Calibri";
+    font-size: 18px;
+  }
+
+
+  #description {
+    font-size:small;
+  }
+  
+  form {
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+
+  form * {
+    margin: 5px;
+  }
+  
+
+  
+  form input{
+    width: 100%;
+    height: 30px;
+    display: inline;
+    color:blue;
+  }
+  form select {
+    height: 35px;
+    display: inline;
+    width: 100%;
+  }
+
+  form input[type="radio"] {
+    width: 15px; 
+    height: 15px;  
+    display: inline-block;
+  }
+
+  form input[type="checkbox"] {
+    width: 15px; 
+    height: 15px;  
+    display: inline-block;
+  }
+  
+  button {
+    background-color: rgba(20, 200, 20, 0.5);
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+  }

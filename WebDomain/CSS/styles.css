@@ -1,0 +1,41 @@
+body {
+    background-color: #fdba00;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+a {
+    display: inline-block;
+    width: 25vw;   /* môže byť aj 40%, no ono 
+    to bude robit blobosti 
+    dokym to nebude 
+    responzivny dizajn 
+    ale to som zabudol 
+    ako robit 
+    to je display: flex???
+    to bolo ze ked to je nad/pod 800 pixolova tak to spravi daco
+    @media (max-width: 800px) {
+        display: block;
+    }
+     toto JEEEE ONOOO   
+    */
+    margin: 1rem;
+    background-color: rgba(26, 127, 202, 0.7);
+    text-align: center;
+}   
+a:hover {
+    box-shadow: 0 0 5px red;
+}
+
+a:active 
+{
+    color: blue;
+}
+
+a:visited {
+    color: black
+}

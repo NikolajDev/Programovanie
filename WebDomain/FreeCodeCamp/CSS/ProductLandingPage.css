@@ -1,0 +1,109 @@
+#submit {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width:fit-content;
+}
+
+#navbar {
+    width: 100%;
+    background-color: rgb(221, 0, 0);
+    z-index: 10;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#navbar nav {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    align-items: right;
+}
+
+#navbar a:hover {
+    background-color: silver;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;*/
+    text-shadow: 1px 1px 3px black;
+}
+
+#CPU {
+    margin: auto;
+    text-align: center;
+}
+
+#CPU h2 {
+    background: linear-gradient(to top left,orange 45%, gray 45%, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+}
+
+#CPU p
+{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#GPU h2 {
+    background: linear-gradient(to top left,green 45%, #00ff00 45%, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+}
+
+#GPU, #SSD {
+    margin: auto;
+    text-align: center;
+}
+
+#GPU p, #SSD p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#SSD h2 {
+    background: linear-gradient(to top left,red 45%, #00ffdd 45%, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+}
+
+iframe
+{
+    margin: auto;
+    padding: 10px;
+}
+
+#header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

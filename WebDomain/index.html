@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Šifrovanie</title>
-    <link rel="icon" type="image/x-icon" href="/MojaIcona.ico">
+    <title>Niky.dev</title>
+    <style>
+        body {
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        #link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #f09433 0%, #e66465 100%);
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2em;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <p id="link">niky.dev</p>
+    </div>
+    <script>
+        const link = document.getElementById('link');
+
+        function changeLink() {
+            // Replace this with your actual desired link
+            const newLink = "https://niky.dev/FreeCodeCamp/HTML/Portfolio.html";
+            window.location.href = newLink;
+        }
+
+        // Change the link every 5 seconds (adjust as needed)
+        setInterval(changeLink, 5000);
+    </script>
 </body>
+
 </html>
